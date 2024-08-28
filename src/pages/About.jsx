@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+import Wrapper from "../assets/wrappers/AboutPage";
+
 
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <Wrapper>
+      <h3>About Us</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus sapiente sunt pariatur inventore quam nisi dolorum consequatur veniam? Ipsam neque quam officia reprehenderit perspiciatis non quos repudiandae quod, ab expedita.</p>
+    </Wrapper>
   );
 };
 export default About;
